@@ -9,10 +9,10 @@ CSS declarations to _everything_ on the page.*/
     margin: 0;
     padding: 0;    
     -webkit-font-smoothing: antialiased;
-    /* border-box sizing, because content-box is SO CSS2.1! */
-         -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-                 box-sizing: border-box;
+    /* Content-box is SO CSS2.1! Fill this in with the correct sizing! */
+         -webkit-box-sizing: ;
+            -moz-box-sizing: ;
+                 box-sizing: ;
 }
 
 body {
@@ -25,10 +25,10 @@ body {
 
 img {
     max-width: 100%; /* Make images responsive, by making them fill 100% of their parent element if possible. */
-    display: block;  /* Render images as block-level element. */
+    display: block;  /* Render images as block-level elements. */
 }
 
-li { 
-    list-style: none; /* Remove bullets on lists */
+li {
+    /* Remove bullets on lists */
 }
 

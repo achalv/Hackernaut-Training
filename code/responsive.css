@@ -7,14 +7,20 @@ browser window is 480px or less, collapse
 the grid, and set the width of all these 
 classes to 100% width. */
 
-@media only screen and (max-width: 960px) {
+
+/* if the maximum width of the screen is 960px or less,
+collapse the grid container to fit the whole width! */
+@media only screen and () {
 	.grid-scaffold {
 		width: 100%;
 	}
 }
 
+/* if the maximum width of the screen is 480px or less,
+collapse the grid columns to fit the whole width! */
+
 @media only screen and (max-width: 480px) {
 	[class*='grid--'] {
-		width: 100%;
+
 	}
 }

@@ -40,15 +40,15 @@ Widths correspond to class name and
 vice-versa, for ease of development. */
 
 .grid--whole       	{ width: 100%;   }
-.grid--ninetenths	{ width: 90%;	 }
-.grid--fourfifths  	{ width: 80%;    }
-.grid--threefourths { width: 75%;    }
-.grid--twothirds   	{ width: 66.66%; }
+.grid--ninetenths	{                }
+.grid--fourfifths  	{                }
+.grid--threefourths {                }
+.grid--twothirds   	{                }
 .grid--sixtenths	{ width: 60%;	 }
-.grid--half        	{ width: 50%;    }
-.grid--fourtenths	{ width: 40%;	 }
+.grid--half        	{                }
+.grid--fourtenths	{                }
 .grid--third       	{ width: 33.33%; }
 .grid--fourth     	{ width: 25%;    }
-.grid--fifth       	{ width: 20%;    }
+.grid--fifth       	{                }
 .grid--tenth        { width: 10%;    }
 
