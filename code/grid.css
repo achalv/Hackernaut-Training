@@ -42,7 +42,7 @@ vice-versa, for ease of development. */
 .grid--whole       	{ width: 100%;   }
 .grid--ninetenths	{                }
 .grid--fourfifths  	{                }
-.grid--threefourths {                }
+.grid--threefourths 	{                }
 .grid--twothirds   	{                }
 .grid--sixtenths	{ width: 60%;	 }
 .grid--half        	{                }
@@ -50,5 +50,5 @@ vice-versa, for ease of development. */
 .grid--third       	{ width: 33.33%; }
 .grid--fourth     	{ width: 25%;    }
 .grid--fifth       	{                }
-.grid--tenth        { width: 10%;    }
+.grid--tenth        	{ width: 10%;    }
 
