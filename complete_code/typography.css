@@ -1,0 +1,69 @@
+/* Typography */
+
+a, a:visited {
+    color: #f56559;
+    text-decoration: none;
+}
+
+a:hover {
+        text-decoration: underline;
+        color: #dc5145;
+}
+
+/* These heading styles are specified in 'em'.
+It is a measurement value in CSS that basically
+refers to the current font-size.
+
+1.2em is 1.2x the current font-size, 2em is 2x, and so on... */
+
+ 
+/* The line-height can also be specified in em units. */
+
+h1 {
+    font-size: 1.75em; /* 24px */
+    line-height: 1.75em; /* 28px */
+    font-family: "Georgia", "Times New Roman", serif;
+}
+
+h2 {
+    font-size: 1.5em; /* 20px */
+    line-height: 1.375em; /* 22px */
+    font-family: "Georgia", "Times New Roman", serif;
+}
+
+h3 {
+    font-size: 1.25em; /* 16px */
+    line-height: 1.25em; /* 20px */
+    font-family: "Georgia", "Times New Roman", serif;
+}
+
+h4 {
+    font-size: 1em; /* 14px */
+    line-height: 1.125em; /* 18px */
+    font-family: "Georgia", "Times New Roman", serif;
+}
+
+h5 {
+    font-size: 0.875em; /* 12px */
+    line-height: 1.125em; /* 18px */
+    font-family: "Georgia", "Times New Roman", serif;
+}
+
+h6 {
+    font-size: 0.75em; /* 10px */
+    line-height: 1em; /* 16px */
+    font-family: "Georgia", "Times New Roman", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Making sure the headings are just big, and not bold. */
+}
+
+p {
+    margin-bottom: 1.125em; /* 18px */
+    /* Separating paragraphs with some space. Space is good. */
+}
+
+p:last-child {
+        margin-bottom: 0; /* The last paragraph doesn't need a bottom margin. */
+}

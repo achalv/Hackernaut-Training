@@ -1,0 +1,54 @@
+/*Grid Setup*/
+
+.grid-scaffold {
+    width: 960px; 
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+/*Fix width for floated elements - 
+This makes sure that floated elements 
+aren't allowed to mess up the how the
+grid is rendered. */
+.grid-scaffold:before, .grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*All classes with names that start with
+'grid--', will have the following styles
+applied to them. CSS has a wild-card selector!
+Who'd have thought?
+
+*/
+[class*='grid--'] {
+	float: left;
+    display: inline; /* Let's have the render on the same level! */
+    padding: 10px 10px 10px 10px; /* Let's give each column some breathing space! */
+    text-align: center; /* All text in columns is centered by default! */
+}
+
+/* Row unit for the grid! */
+.grid-row {
+	width: 100%; /* Each row occupies 100% of it's parent element - the grid scaffold! */
+}
+
+/* Column classes! 
+
+Widths correspond to class name and 
+vice-versa, for ease of development. */
+
+.grid--whole       	{ width: 100%;   }
+.grid--ninetenths	{ width: 90%;	 }
+.grid--fourfifths  	{ width: 80%;    }
+.grid--threefourths { width: 75%;    }
+.grid--twothirds   	{ width: 66.66%; }
+.grid--sixtenths	{ width: 60%;	 }
+.grid--half        	{ width: 50%;    }
+.grid--fourtenths	{ width: 40%;	 }
+.grid--third       	{ width: 33.33%; }
+.grid--fourth     	{ width: 25%;    }
+.grid--fifth       	{ width: 20%;    }
+.grid--tenth        { width: 10%;    }
+
