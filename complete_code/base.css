@@ -29,6 +29,6 @@ img {
 }
 
 li { 
-    list-style: none; /* Remove bullets on lists */
+    list-style-type: none; /* Remove bullets on lists */
 }
 
