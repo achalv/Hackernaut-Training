@@ -1,0 +1,16 @@
+/* Let's style some buttons! */
+
+button {
+
+}
+
+/* Also style submit buttons!
+
+Submit buttons behave the same way as other buttons, except they 'submit' things. 
+They're not covered by the button selector, so we style them separately.
+
+*/
+
+input[type=submit] {
+
+}

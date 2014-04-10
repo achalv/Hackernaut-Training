@@ -1,0 +1,20 @@
+/*Making stuff responsive! */
+
+/* This is a media query.
+
+If the maximum width of the (mobile/desktop) 
+browser window is 480px or less, collapse
+the grid, and set the width of all these 
+classes to 100% width. */
+
+@media only screen and (max-width: 960px) {
+	.grid-scaffold {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	[class*='grid--'] {
+		width: 100%;
+	}
+}
