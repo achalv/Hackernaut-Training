@@ -23,7 +23,7 @@ Who'd have thought?
 
 */
 [class*='grid--'] {
-	float: left;
+    float: left;
     display: inline; /* Let's have the render on the same level! */
     padding: 10px 10px 10px 10px; /* Let's give each column some breathing space! */
     text-align: center; /* All text in columns is centered by default! */
